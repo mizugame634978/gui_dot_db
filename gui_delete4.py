@@ -112,13 +112,13 @@ delete_button.place(in_ =scan_frame,relx = 0.5, rely = 0.93, relwidth=0.6,relhei
 
 
 get_button =  tk.Button(scan_frame,text='テーブル名で検索',font=18,width=10,height=10, command=lambda:get_char(0))
-get_button.place(in_ =scan_frame,relx = 0.1, rely = 0.8, relwidth=0.1,relheight=0.1 ,anchor = tk.W)
+get_button.place(in_ =scan_frame,relx = 0.1, rely = 0.8, width=200,relheight=0.1 ,anchor = tk.W)
 
 get_buttonN =  tk.Button(scan_frame,text='テーブル名を表示',font=18,width=10,height=10, command=lambda:get_char(1))
-get_buttonN.place(in_ =scan_frame,relx = 0.12, rely = 0.6, relwidth=0.1,relheight=0.1 ,anchor = tk.W)
+get_buttonN.place(in_ =scan_frame,relx = 0.12, rely = 0.6, width=200,relheight=0.1 ,anchor = tk.W)
 
 get_buttonF =  tk.Button(scan_frame,text='テーブルの中を見る',font=18,width=10,height=10, command=gui_select)
-get_buttonF.place(in_ =scan_frame,relx = 0.12, rely = 0.7, relwidth=0.1,relheight=0.1 ,anchor = tk.W)
+get_buttonF.place(in_ =scan_frame,relx = 0.12, rely = 0.7, width=200,relheight=0.1 ,anchor = tk.W)
 
 
 
